@@ -1,6 +1,6 @@
 # Number of Legislators, Bargaining Costs, and Local Public Goods Provision
 
-This GitHub repository contains the replication materials and the documented R code for my Job Market Paper ["Number of Legislators, Bargaining Costs, and Provision of Local Public Goods"](xxxx).
+This GitHub repository contains the replication materials and the documented R code for my Job Market Paper ["Number of Legislators, Bargaining Costs, and Provision of Local Public Goods"](https://www.dropbox.com/s/qb8to3z2vap9vrl/article.pdf).
 
 My contact: [Umberto Mignozzetti](http://umbertomig.com).
 
