@@ -49,7 +49,7 @@ Consider an strategic interaction between a mayor ($M$) and $N \geq 3$ city coun
 
 The city council votes the mayor's proposal, and if they accept it, it is implemented. Otherwise, a reversal policy takes place. Reversal policy in this context means that the mayor's proposal failed to secure the majority of council votes. The decision process leaves the mayor's office and either immediately stops or is transferred to the council. The types of reversal policies are crucial for my argument, as it changes the relative strength of the council in their bargaining with the mayor. I investigate three types of reversal policies: a \textit{non-partisan} reversal mechanism, where city councilors have no partisan affiliation; a \textit{partisan} reversal mechanism, where the council is divided into supporters and non-supporters of the mayor; and finally, a \textit{hybrid} reversal mechanism, that combines partisan with non-partisan features. The main paper focuses on the hybrid model, as it is the more realistic scenario. Despite that, comparing the partisan and non-partisan reversal mechanisms clearly illustrates my argument that the partisan mechanism drives my results.
 
-To govern, the mayor has to convince at least half of the city councilors to support her policy proposals. Similar to \citet{buenodemesquita2005logic}, I assume that the selectorate, i.e., the individuals that have a say in the mayor's policy proposals, are the $N$ city councilors. The winning coalition, the minimum number of members who have to be convinced to implement the policy, equals half of the selectorate $N/2$. City councilors are moved by policy concerns $p$ and transfers received from the mayor or the councilor recognized as the proposer \textbf{x}. I leave the definition of these transfers open, as this facilitates the relationship with several instruments that mayors can use to pressure city councilors. To illustrate, examples of transfers are granting electoral favors, spending in areas that the councilor has political or personal interests, giving portfolio and public jobs within the municipal bureaucracy, or even campaign contributions and bribes. The use of transfers affects the councilors' choices and generates a governing cost of $C_G$. The governing costs vary with the reversal mechanism and the legislature size.
+The mayor has to convince at least half of the city councilors to support her policy proposals. Similar to \citet{buenodemesquita2005logic}, I assume that the selectorate, i.e., the individuals that have a say in the mayor's policy proposals, are the $N$ city councilors. The winning coalition, the minimum number of members who have to be convinced to implement the policy, equals half of the selectorate $N/2$. City councilors are moved by policy concerns $p$ and transfers received from the mayor or the councilor recognized as the proposer \textbf{x}. I leave the definition of these transfers open, as this facilitates the relationship with several instruments that mayors can use to pressure city councilors. To illustrate, examples of transfers are granting electoral favors, spending in areas that the councilor has political or personal interests, giving portfolio and public jobs within the municipal bureaucracy, or even campaign contributions and bribes. The use of transfers affects the councilors' choices and generates a governing cost of $C_G$. The governing costs vary with the reversal mechanism and the legislature size.
 
 Finally, after paying the govern costs, the mayor proposes a level of public goods provision ($g$) and rents ($r$). Public goods provision helps the mayor to get reelected. Rents are for direct mayor's consumption and do not contribute to the mayor's electoral success. This makes the mayor's expected utility a sum of the gains from rents and the benefits from reelection. Both the utilities from rents $u(.)$ and the probability of reelection $\pi(.)$ are concave functions, meaning that more rents or public goods increase the utility at a decreasing rate.\footnote{In technical terms, $u'>0$ and $\pi'>0$; and $u''<0$ and $\pi''<0$.} The probability of reelection is multiplied by the benefit from holding office $B_M > 0$. This benefit captures the tangible and intangible gains that the mayor perceives from holding the public office. I assume that the benefits are high enough to rule out an equilibrium with only rents and transfers, which is equivalent to saying that mayors strongly prefer to be reelected. If the mayor's policy proposal is approved, then the expected utility for the mayor is:
 
@@ -153,7 +153,7 @@ u'(R - g - C_G(N+1)) \geq
 u'(R - g - C_G(N))
 \]
 
-It is now clear to see that the function satisfies the increasing differences in $g$ and $N$ when the governing costs of a $N+1$-sized city council is lower than the governing costs of a $N$-sized city council:
+It is now clear to see that the function satisfies the increasing differences in $g$ and $N$ when the governing costs of a $N+1$-sized city council are lower than the governing costs of a $N$-sized city council:
 
 \[
 C_G(N+1) \leq C_G(N)
@@ -163,7 +163,7 @@ C_G(N+1) \leq C_G(N)
 
 This provides the first empirical hypothesis to test: \textit{if the governing costs decrease when the legislature increases, then the public goods provision increase when the legislature size increase}.
 
-At this stage, I need to solve for the existence of these governing costs. Below I show that this proposition is valid for the *partisan* and *hybrid* mechanisms, but it is not right for the *non-partisan* mechanism.
+At this stage, I need to solve for the existence of these governing costs. Below I show that this proposition is valid for the *partisan* and *hybrid* mechanisms, but it is not suitable for the *non-partisan* mechanism.
 
 ### Non-Partisan Reversal Mechanism
 
@@ -393,7 +393,7 @@ I ran an online survey asking 174 councilors, among other questions, about their
 \item \textbf{Councilors Constructions}: The frequency that mayors support councilors' requests for constructions (e.g., fix potholes in the councilor's neighborhoods) (source: survey).
 \end{itemize}
 
-This Appendix presents other questions I asked in the survey. They are meant to improve my knowledge about the city councilors' perceptions about their roles in the municipality. I omitted these questions in the main paper because they not of general interest for my argument. The descriptive statistics of the variables used in the main article follow in Table \ref{tabdescrvarspaper}.
+This Appendix presents other questions I asked in the survey. They are meant to improve my knowledge about the city councilors' perceptions of their municipality roles. I omitted these questions in the main paper because they are not of general interest to my argument. The descriptive statistics of the variables used in the main article follow in Table \ref{tabdescrvarspaper}.
 
 \begin{table}[htb!]
 \centering 
@@ -453,7 +453,7 @@ Coalition Support -- Councilors Constructions & 174 & 0.43 & 0.50 & 0 & 1 \\
 The validity of the causal claim relies on three assumptions:
 
 \begin{enumerate}
-  \item That municipalities cannot sort themselves on the left or the right-hand size of the cutoffs by their choices.
+  \item That municipalities cannot sort themselves on the left or the right-hand side of the cutoffs by their choices.
   \item That the regression models are consistently comparing cities in the adjacent cutoffs.
   \item That I have no pre-treatment differences in the sample.
 \end{enumerate}
@@ -655,7 +655,7 @@ A consistent estimator should fit one in the first and fourth data distribution.
 ## Placebo Regressions for Political Mechanism
 \label{placmechmain}
 
-Here I present the placebo regressions for the mechanism-aggregated outcomes. In Panel A of the main paper, I run the regression on alternative explanations. Only female changed significantly, but a change is statistically expected in at least 10\% of cases. I have not collected data on non-white legislators in the placebo cutoffs; therefore, I leave it blank. In Panel B, I have the placebo regressions for the primary mechanism: bargaining costs and public appointed employees. As expected, the placebo regressions were statistically insignificant.
+Here I present the placebo regressions for the mechanism-aggregated outcomes. In Panel A of the main paper, I run the regression on alternative explanations. Only the number of female councilors changed significantly, but a change is statistically expected in at least 10\% of cases. I have not collected data on non-white legislators in the placebo cutoffs; therefore, I leave it blank. In Panel B, I have the placebo regressions for the primary mechanism: bargaining costs and public appointed employees. As expected, the placebo regressions were statistically insignificant.
 
 \begin{table}[!htbp] \centering 
 \caption{Political Effects of Legislature Size -- Placebo Cutoffs} 
@@ -747,7 +747,7 @@ In Figure \ref{placgraphbw}, I run the same bandwidth analysis for the placebo o
 
 The literature about Brazil recognizes that the country presents considerable variability. Moreover, some states had such poor Health Care and Education systems that they could be driving our results. I run the analysis dropping one state at a time to investigate this statewide heterogeneity. The results are in Figures \ref{graphsensstatedrop1},\ref{graphsensstatedrop2}, \ref{placgraphsensstatedrop1}, and \ref{placgraphsensstatedrop2}. 
 
-First, note that for infant mortality and education enrollment, all coefficients remain significant upon the removal of the state. For postneonatal mortality, the coefficient loses significance when removing Bahia, Pernambuco, Rio Grande do Norte, and Rio Grande do Sul. The mayoral coalition size remain significant in most models, losing significance when removing Rio Grande do Norte and Sao Paulo. The number of appointed employees lose significance when removing Espirito Santo and Sao Paulo. All the alternative mechanism models are insignificant, regardless of the state removed.
+First, note that for infant mortality and education enrollment, all coefficients remain significant upon the removal of the state. For postneonatal mortality, the coefficient loses significance when removing Bahia, Pernambuco, Rio Grande do Norte, and Rio Grande do Sul. The mayoral coalition size remains significant in most models, losing significance when removing Rio Grande do Norte and Sao Paulo. The number of appointed employees lose significance when removing Espirito Santo and Sao Paulo. All the alternative mechanism models are insignificant, regardless of the state removed.
 
 \pagebreak
 
@@ -865,9 +865,9 @@ However, if the selection of controls makes the models overestimate quantities i
 \end{figure}
 \end{landscape}
 
-For instance, changes in controls substantially affect the detected differences in Elementary Education Quality, making some combinations of controls to fit a positive effect in terms of education quality. However, most combinations of controls were insignificant in this variable.
+For instance, changes in controls substantially affect the detected differences in Elementary Education Quality, making some combinations of controls fit a positive effect on education quality. However, most combinations of controls were insignificant in this variable.
 
-My choices of full controlled model was the most conservative. This because the Full Model is significant only when most of the combinations also are significant. Regarding the point estimates, my choices of controls tend to keep the models with smaller coefficient sizes.
+My choice of full controlled model was the most conservative. This is because the Full Model is significant only when most of the combinations also are significant. Regarding the point estimates, my choices of controls tend to keep the models with smaller coefficient sizes.
 
 I also plot sensitivity tests to covariates in the placebo regressions in Figures \ref{placsenscov1} and \ref{placsenscov2}. The theoretical expectations here are that most of these outcomes would fail, and the graphs confirm these expectations.
 
